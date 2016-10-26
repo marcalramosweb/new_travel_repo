@@ -1,0 +1,10 @@
+
+html, body{
+  font-family: 'Roboto', sans-serif;
+  font-size: .9rem;
+}
+
+.container-fluid{
+  padding-left: 0px;
+  padding-right: 0px;
+}

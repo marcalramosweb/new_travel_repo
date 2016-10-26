@@ -1,0 +1,45 @@
+.top_navigation{
+  border-radius: 0px;
+  background-color: #2f5573;
+  border: 0px;
+  margin-bottom: 0px;
+
+  .row{
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+  .col-sm-4{
+    width: 100%;
+    padding-top: 4px;
+    padding-bottom: 4px;
+  }
+
+  a{
+    color: #6D6D6D;
+  }
+
+  a:hover{
+    text-decoration: none;
+  }
+
+}
+
+.navbar-nav > .open > a{
+  background-color: #294A63 !important;
+}
+
+
+.logo-main-container{
+  padding-left: 0px;
+  padding-right: 0px;
+  min-height: 100px;
+}
+
+.logo-main-container a{
+  width: 100%;
+  height: auto;
+  font-size: 22px;
+  font-weight: bold;
+
+}
