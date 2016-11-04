@@ -16,7 +16,9 @@
   }
 
   a{
-    color: #6D6D6D;
+    color: #fff !important;
+    font-size: 1.1rem;
+
   }
 
   a:hover{

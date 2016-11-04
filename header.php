@@ -27,6 +27,7 @@
     <link rel="stylesheet" type="text/css" href="<?php bloginfo(stylesheet_directory);?>/assets/bootstrap/css/bootstrap.css">
     <!--Custom Css-->
     <link rel="stylesheet" type="text/css" href="<?php bloginfo(stylesheet_directory);?>/assets/css/styles/custom.css">
+    <link rel="stylesheet" type="text/css" href="<?php bloginfo(stylesheet_directory);?>/assets/fontawesome/css/font-awesome.css">
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
 
@@ -62,14 +63,20 @@
     </div>
 
     <div class="col-sm-9">
-      <div class="col-sm-6 text-center">
+      <div class="col-sm-6 text-center logo-main-container__iata-image">
           <img class="" src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/iata.png" width="75" height="50" alt="" />
+          <p>
+            All holidays packages and flihts are 100% covered.
+          </p>
       </div>
-      <div class="col-sm-6 text-center">
+      <div class="col-sm-6 text-center logo-main-container__phone-number">
+
+
           <p>
             Find our professional who can help
           </p>
-          <h2>0900 666 2145</h2>
+          <h2><i class="fa fa-mobile" aria-hidden="true"></i>
+ 0900 666 2145</h2>
       </div>
     </div>
   </div>
