@@ -8,10 +8,7 @@
  *
  * @package aguiatravel_starter_theme
  */
-
-
-
-
+ 
 ?>
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
