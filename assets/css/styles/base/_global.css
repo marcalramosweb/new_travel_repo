@@ -219,12 +219,120 @@ html, body{
 .input-group-addon{
   background-color: #2f5573;
   color: #fff;
-  border: 1px solid #2f5573;
+  border: 1px solid #2f5573 ;
 }
 
 .second-search-form{
   margin-right: 60px;
 }
+
+
+
+
+
+/*
+*************************************************
+BODY STYLE START HERE....
+*************************************************
+*/
+
+.starter-template{
+
+  &__title{
+    font-size: 1.9rem;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 10px;
+  }
+
+  &__subtitle{
+    max-width: 480px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+  }
+
+  &__phone{
+    font-size: 1.8rem;
+    font-weight: bold;
+
+  }
+}
+
+.main-body-container{
+  margin-bottom: 60px;
+
+    &__inner-container-rectcard-image{
+
+      -moz-box-shadow: 0px 1px 3px #737273;
+      -webkit-box-shadow: 0px 1px 3px #737273;
+      box-shadow: 0px 1px 3px #737273;
+      border-bottom-right-radius:4px;
+      border-bottom-left-radius:4px;
+      padding-bottom: 10px;
+    }
+
+    &__inner-container-rectcard-image img{
+      border-top-right-radius:4px;
+      border-top-left-radius:4px;
+    }
+    &__inner-container-rectcard-content{
+      padding: 0 15px;
+    }
+
+    &__inner-container-rectcard-content h3{
+      font-size: 1.2rem;
+      font-weight: bold;
+      margin: 10px 0 9px 0;
+      padding: 0 ;
+      color: #B29307;
+    }
+
+      &__inner-container-rectcard-content p{
+        font-size: 1rem;
+        color: #777777;
+        margin-bottom:5px;
+      }
+
+      &__inner-container-rectcard-price-tag span{
+        font-size: 1.4rem;
+        font-weight: bold;
+      }
+}
+
+
+.divider-container{
+  width: 100%;
+  margin-bottom: 40px;
+
+  &__title{
+    margin: 0 0 3px 0;
+    padding: 0;
+    font-weight: 100;
+  }
+
+  &__divider-r{
+    margin: 0;
+    padding: 0;
+    border: 1px solid #E2E2E2;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+/*
+*************************************************
+BODY STYLE END HERE....
+*************************************************
+*/
 
 /*footer style*/
 /* Sticky footer styles

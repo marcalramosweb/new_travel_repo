@@ -1,4 +1,5 @@
 @import "normalize.css";
 @import "./styles/base/_global";
+@import "./style/base/_color-vars";
 @import "/styles/modules/_form";
 @import "./styles/modules/_header-nav";
