@@ -13,7 +13,9 @@
 	</div><!-- .container-fluid -->
 
 	<footer class="site-footer">
-
+		<div class="container">
+			 <p class="text-muted">&copy; <?php bloginfo('name');?> - All Rights Reserved - <?php echo Date('Y');?></p>
+		 </div>
 	</footer><!-- #colophon -->
 
   <!-- Bootstrap core JavaScript

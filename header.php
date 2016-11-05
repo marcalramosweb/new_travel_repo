@@ -8,7 +8,7 @@
  *
  * @package aguiatravel_starter_theme
  */
- 
+
 ?>
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
@@ -70,7 +70,7 @@
 
 
           <p>
-            Find our professional who can help
+            Professional Allways Ready To Help.
           </p>
           <h2><i class="fa fa-mobile" aria-hidden="true"></i>
  0900 666 2145</h2>
@@ -103,7 +103,17 @@
               'walker'            => new Yamm_Nav_Walker())
           );
       ?>
+      <div class="navbar-form navbar-right second-search-form">
+        <form>
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Search">
+            </div>
+            <button type="submit" class="btn btn-default">Submit</button>
+        </form>
+      </div>
+
     </div><!--/.nav-collapse-->
+
     </div>
 </nav>
 

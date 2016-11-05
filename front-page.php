@@ -8,9 +8,31 @@
         <div class="container __form-wrapper">
           <div class="serv-pannel">
             <ul class="list-unstyled">
-              <li>Flight + Hotekl</li>
-              <li>Flight</li>
-              <li>Hotel</li>
+              <li>
+                <ul class="list-unstyled text-center">
+                  <li>
+                    <i class="fa fa-plane" aria-hidden="true"></i>
+                    <i class="fa fa-building-o m-right-none" aria-hidden="true"></i>
+                  </li>
+                </ul>
+                Flight + Hotel
+              </li>
+              <li>
+                <ul class="list-unstyled text-center">
+                  <li>
+                    <i class="fa fa-plane m-right-none" aria-hidden="true"></i>
+                  </li>
+                </ul>
+                Flight
+              </li>
+              <li>
+                <ul class="list-unstyled text-center">
+                  <li>
+                    <i class="fa fa-building-o m-right-none" aria-hidden="true"></i>
+                  </li>
+                </ul>
+                Hotel
+              </li>
             </ul>
           </div>
           <div class="__form-body">
@@ -34,7 +56,7 @@
                 <div class="col-sm-12 col-sm-6 dash-margin dash-margin-right dash-only-media-right">
                   <div class="form-group">
                     <div class="input-group">
-                      <div class="input-group-addon">To</div>
+                      <div class="input-group-addon">Depart</div>
                       <input type="text" class="form-control" id="exampleInputAmount" placeholder="Amount">
                     </div>
                   </div>
@@ -43,7 +65,7 @@
                 <div class="col-sm-12 col-sm-6 dash-margin dash-margin-left dash-only-media-left">
                   <div class="form-group">
                     <div class="input-group">
-                      <div class="input-group-addon">To</div>
+                      <div class="input-group-addon">Return</div>
                       <input type="text" class="form-control" id="exampleInputAmount" placeholder="Amount">
                     </div>
                   </div>
@@ -53,7 +75,7 @@
                 <div class="col-md-4 dash-margin dash-margin-right dash-only-media-first">
                   <div class="form-group">
                     <div class="input-group">
-                      <div class="input-group-addon">To</div>
+                      <div class="input-group-addon">Adults</div>
                       <input type="text" class="form-control" id="exampleInputAmount" placeholder="Amount">
                     </div>
                   </div>
@@ -62,7 +84,7 @@
                 <div class="col-md-4 dash-margin dash-margin-right dash-margin-left dash-only-media-second">
                   <div class="form-group">
                     <div class="input-group">
-                      <div class="input-group-addon">To</div>
+                      <div class="input-group-addon">Children</div>
                       <input type="text" class="form-control" id="exampleInputAmount" placeholder="Amount">
                     </div>
                   </div>
@@ -71,16 +93,17 @@
                 <div class="col-md-4 dash-margin dash-margin-left dash-only-media-third">
                   <div class="form-group">
                     <div class="input-group">
-                      <div class="input-group-addon">To</div>
+                      <div class="input-group-addon">Infants</div>
                       <input type="text" class="form-control" id="exampleInputAmount" placeholder="Amount">
                     </div>
                   </div>
                 </div>
             </form>
 
-
+            <div class="clearfix"></div>
 
           </div>
+          <div class="clearfix"></div>
         </div>
 
       </div>
